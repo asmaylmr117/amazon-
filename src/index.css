@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@300&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.category-page aside h3 {
+      @apply font-semibold text-sm
+}
+.category-page aside section > div {
+      @apply flex flex-col gap-3
+}
+body{
+    font-family: "IBM Plex Sans Condensed", serif;
+    
+}
+
+/* Customize scrollbar for supported browsers */
+::-webkit-scrollbar {
+      width: 4px; /* Scrollbar width */
+    }
+    
+    /* Scrollbar track */
+    ::-webkit-scrollbar-track {
+      background: #f1f1f100; /* Background color */
+      border-radius: 10px; /* Rounded edges */
+    }
+    
+    /* Scrollbar thumb */
+    ::-webkit-scrollbar-thumb {
+      background: #2836474a; /* Scrollbar color */
+      border-radius: 10px;
+    }
+
+.us ul li ul li,
+.details ul li ul li{
+  @apply mt-2 text-sm text-[#999999]
+}
